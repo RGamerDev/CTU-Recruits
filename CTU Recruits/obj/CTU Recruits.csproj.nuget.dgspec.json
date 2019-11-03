@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\OneDrive - CTU Career\\Modules\\Second Semester\\IPG512\\SA\\CTU_Recruits\\CTU Recruits\\CTU Recruits.csproj": {}
+  },
+  "projects": {
+    "D:\\OneDrive - CTU Career\\Modules\\Second Semester\\IPG512\\SA\\CTU_Recruits\\CTU Recruits\\CTU Recruits.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OneDrive - CTU Career\\Modules\\Second Semester\\IPG512\\SA\\CTU_Recruits\\CTU Recruits\\CTU Recruits.csproj",
+        "projectName": "CTU Recruits",
+        "projectPath": "D:\\OneDrive - CTU Career\\Modules\\Second Semester\\IPG512\\SA\\CTU_Recruits\\CTU Recruits\\CTU Recruits.csproj",
+        "packagesPath": "C:\\Users\\berth\\.nuget\\packages\\",
+        "outputPath": "D:\\OneDrive - CTU Career\\Modules\\Second Semester\\IPG512\\SA\\CTU_Recruits\\CTU Recruits\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\berth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

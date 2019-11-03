@@ -1,0 +1,35 @@
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\appsettings.Development.json
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\appsettings.json
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\CTU Recruits.exe
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\CTU Recruits.deps.json
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\CTU Recruits.runtimeconfig.json
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\CTU Recruits.runtimeconfig.dev.json
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\CTU Recruits.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\CTU Recruits.pdb
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\CTU Recruits.Views.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\CTU Recruits.Views.pdb
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.csprojAssemblyReference.cache
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\staticwebassets\CTU Recruits.StaticWebAssets.Manifest.cache
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\staticwebassets\CTU Recruits.StaticWebAssets.xml
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.MvcApplicationPartsAssemblyInfo.cache
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.RazorAssemblyInfo.cache
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.RazorAssemblyInfo.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.AssemblyInfoInputs.cache
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.AssemblyInfo.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.TagHelpers.input.cache
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.TagHelpers.output.cache
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.RazorCoreGenerate.cache
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.RazorTargetAssemblyInfo.cache
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.RazorTargetAssemblyInfo.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.Views.pdb
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.pdb
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.csproj.CopyComplete
