@@ -12,7 +12,6 @@ D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recr
 D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.csprojAssemblyReference.cache
 D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\staticwebassets\CTU Recruits.StaticWebAssets.Manifest.cache
 D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\staticwebassets\CTU Recruits.StaticWebAssets.xml
-D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.MvcApplicationPartsAssemblyInfo.cache
 D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.RazorAssemblyInfo.cache
 D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.RazorAssemblyInfo.cs
 D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.AssemblyInfoInputs.cache
@@ -20,8 +19,6 @@ D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recr
 D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.TagHelpers.input.cache
 D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.TagHelpers.output.cache
 D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.RazorCoreGenerate.cache
-D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
-D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
 D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -33,3 +30,102 @@ D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recr
 D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.dll
 D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.pdb
 D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.csproj.CopyComplete
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Account\Register.cshtml.g.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Employer\Index.cshtml.g.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\CTU Recruits.MvcApplicationPartsAssemblyInfo.cache
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\JobSeeker\Index.cshtml.g.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\JobSeeker\Create.cshtml.g.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\JobSeeker\Edit.cshtml.g.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\JobSeeker\Details.cshtml.g.cs

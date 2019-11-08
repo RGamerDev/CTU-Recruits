@@ -26,8 +26,29 @@ using CTU_Recruits.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\Views\_ViewImports.cshtml"
+using CTU_Recruits.Models.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\Views\_ViewImports.cshtml"
+using CTU_Recruits.Models.ViewModels.JobSeekers;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\Views\_ViewImports.cshtml"
+using CTU_Recruits.Models.ViewModels.Employers;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fd5d5798a41d416d6541e74102266b30f8b525dd", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cfee9b266a994536da2da9c971b6f615e355f2a5", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
