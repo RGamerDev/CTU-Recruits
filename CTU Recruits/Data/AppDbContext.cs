@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CTU_Recruits.Data
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext
     {
         public DbSet<Employer> employers;
         public DbSet<JobSeeker> jobSeekers;

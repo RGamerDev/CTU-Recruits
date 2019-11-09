@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CTU_Recruits.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20191108210729_AddAndSeedUsers")]
-    partial class AddAndSeedUsers
+    [Migration("20191109001235_SeedUsers")]
+    partial class SeedUsers
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -29,12 +29,13 @@ namespace CTU_Recruits.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("CompanyName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CompanyPhotoPath")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -46,22 +47,22 @@ namespace CTU_Recruits.Migrations
                         {
                             Id = 1,
                             CompanyName = "Techer",
-                            Description = "jfkdlsahjkdasghsdjka",
-                            Name = "Mary"
+                            CompanyPhotoPath = "Building1.jpg",
+                            Description = "jfkdlsahjkdasghsdjka"
                         },
                         new
                         {
                             Id = 2,
                             CompanyName = "ITD",
-                            Description = "jfkdlsahjkdasghsdjka",
-                            Name = "John"
+                            CompanyPhotoPath = "Building2.jpg",
+                            Description = "jfkdlsahjkdasghsdjka"
                         },
                         new
                         {
                             Id = 3,
                             CompanyName = "UMC",
-                            Description = "jfkdlsahjkdasghsdjka",
-                            Name = "Sam"
+                            CompanyPhotoPath = "Building3.jpg",
+                            Description = "jfkdlsahjkdasghsdjka"
                         });
                 });
 

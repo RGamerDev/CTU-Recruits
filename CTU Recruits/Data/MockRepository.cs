@@ -15,9 +15,9 @@ namespace CTU_Recruits.Data
         {
             employers = new List<Employer>()
             {
-                new Employer(){ Id = 1, Name = "Mary", CompanyName = "Techer", Description = "jfkdlsahjkdasghsdjka"},
-                new Employer(){ Id = 2, Name = "John", CompanyName = "ITD", Description = "jfkdlsahjkdasghsdjka"},
-                new Employer(){ Id = 3, Name = "Sam", CompanyName = "UMC", Description = "jfkdlsahjkdasghsdjka"},
+                new Employer(){ Id = 1, CompanyName = "Techer", Description = "jfkdlsahjkdasghsdjka", CompanyPhotoPath = "Building1.jpg"},
+                new Employer(){ Id = 2, CompanyName = "ITD", Description = "jfkdlsahjkdasghsdjka", CompanyPhotoPath = "Building2.jpg"},
+                new Employer(){ Id = 3, CompanyName = "UMC", Description = "jfkdlsahjkdasghsdjka", CompanyPhotoPath = "Building3.jpg"},
             };
 
             jobSeekers = new List<JobSeeker>()
@@ -36,7 +36,15 @@ namespace CTU_Recruits.Data
 
         public Employer AddEmployer(Employer employer)
         {
-            employer.Id = employers.Max(e => e.Id) + 1;
+            if (jobSeekers.Count <= 0)
+            {
+                employer.Id = 1;
+            }
+            else
+            {
+                employer.Id = jobSeekers.Max(j => j.Id) + 1;
+            }
+
             employers.Add(employer);
             return employer;
         }
@@ -101,7 +109,6 @@ namespace CTU_Recruits.Data
             Employer employer = employers.FirstOrDefault(j => j.Id == employerChanges.Id);
             if (employer != null)
             {
-                employer.Name = employerChanges.Name;
                 employer.CompanyName = employerChanges.CompanyName;
                 employer.Description = employerChanges.Description;
             }

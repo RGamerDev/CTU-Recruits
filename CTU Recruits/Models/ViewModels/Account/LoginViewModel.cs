@@ -4,9 +4,9 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CTU_Recruits.Models.ViewModels
+namespace CTU_Recruits.Models.ViewModels.Account
 {
-    public class RegisterViewModel
+    public class LoginViewModel
     {
         [Required, EmailAddress]
         public string Email { get; set; }
@@ -14,9 +14,7 @@ namespace CTU_Recruits.Models.ViewModels
         [Required, DataType(DataType.Password)]
         public string Password { get; set; }
 
-        [DataType(DataType.Password),
-        Display(Name ="Confirm password"),
-        Compare("Password", ErrorMessage ="Password and confirmation password do not match")]
-        public string ConfirmPassword { get; set; }
+        [Display(Name = "Remember Me")]
+        public bool RememberMe { get; set; }
     }
 }

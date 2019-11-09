@@ -1,0 +1,50 @@
+﻿@model EmployerCreateViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form enctype="multipart/form-data" asp-action="Create" asp-controller="Employer" method="post" class="mt-3">
+    <div class="form-group row">
+        <label asp-for="CompanyName" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="CompanyName" class="form-control" placeholder="Name" />
+            <span asp-validation-for="CompanyName" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="Description" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="Description" class="form-control" placeholder="Description" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="Photo" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <div class="custom-file">
+                <input asp-for="Photo" class="form-control custom-file-input" placeholder="Photo" />
+                <label class="custom-file-label">Choose Profile photo...</label>
+            </div>
+        </div>
+    </div>
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="form-group row">
+        <button type="submit" class="btn btn-primary">Create</button>
+        <a asp-action="Index" asp-controller="Employer" class="btn btn-primary">Back</a>
+    </div>
+
+    @section Scripts {
+        <script>
+            $(document).ready(function () {
+                $('.custom-file-input').on("change", function () {
+                    var filename = $(this).val().split("\\").pop();
+                    $(this).next('.custom-file-label').html(filename);
+                })
+            })
+        </script>
+    }
+
+</form>
+

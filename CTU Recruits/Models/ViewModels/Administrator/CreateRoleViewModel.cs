@@ -4,10 +4,11 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CTU_Recruits.Models.ViewModels.Employers
+namespace CTU_Recruits.Models.ViewModels.Administrator
 {
-    public class EmployerDetailsViewModel : Employer
+    public class CreateRoleViewModel
     {
-
+        [Required]
+        public string RoleName { get; set; }
     }
 }

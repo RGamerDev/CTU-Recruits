@@ -2,7 +2,7 @@
 
 namespace CTU_Recruits.Migrations
 {
-    public partial class AddAndSeedUsers : Migration
+    public partial class SeedUsers : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -12,9 +12,9 @@ namespace CTU_Recruits.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(nullable: true),
-                    CompanyName = table.Column<string>(nullable: true),
-                    Description = table.Column<string>(nullable: true)
+                    CompanyName = table.Column<string>(nullable: false),
+                    Description = table.Column<string>(nullable: true),
+                    CompanyPhotoPath = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -42,12 +42,12 @@ namespace CTU_Recruits.Migrations
 
             migrationBuilder.InsertData(
                 table: "Employer",
-                columns: new[] { "Id", "CompanyName", "Description", "Name" },
+                columns: new[] { "Id", "CompanyName", "CompanyPhotoPath", "Description" },
                 values: new object[,]
                 {
-                    { 1, "Techer", "jfkdlsahjkdasghsdjka", "Mary" },
-                    { 2, "ITD", "jfkdlsahjkdasghsdjka", "John" },
-                    { 3, "UMC", "jfkdlsahjkdasghsdjka", "Sam" }
+                    { 1, "Techer", "Building1.jpg", "jfkdlsahjkdasghsdjka" },
+                    { 2, "ITD", "Building2.jpg", "jfkdlsahjkdasghsdjka" },
+                    { 3, "UMC", "Building3.jpg", "jfkdlsahjkdasghsdjka" }
                 });
 
             migrationBuilder.InsertData(

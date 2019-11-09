@@ -1,21 +1,22 @@
 ﻿@model IEnumerable<Employer>
 
 @{
-    ViewData["Title"] = "JobSeeker List";
+    ViewData["Title"] = "Employers List";
 }
 
 <div class="card-deck">
     @foreach (var emp in Model)
     {
-        <div class="card m-3">
+        string photoPath = $"~/Images/Employers/{emp.CompanyPhotoPath ?? "NoImage.jpg"}";
+        <div class="card m-3 index-img">
             <div class="card-header text-center">
                 <h3>@emp.CompanyName</h3>
             </div>
-            <img class="card-img-top" id="index-img" src="@emp." asp-append-version="true" />
+            <img class="card-img-top" id="index-img" src="@photoPath" asp-append-version="true" />
             <div class="card-footer text-center">
                 <a asp-action="Details" asp-controller="Employer" asp-route-id="@emp.Id" class="btn btn-primary">View</a>
                 <a asp-action="Edit" asp-controller="Employer" asp-route-id="@emp.Id" class="btn btn-primary">Edit</a>
-                <a asp-action="Delete" asp-controller="Employer" class="btn btn-danger">Delete</a>
+                <a asp-action="Delete" asp-controller="Employer" asp-route-id="@emp.Id" class="btn btn-danger">Delete</a>
             </div>
         </div>
     }

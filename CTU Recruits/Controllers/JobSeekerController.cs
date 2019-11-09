@@ -7,11 +7,13 @@ using CTU_Recruits.Data;
 using CTU_Recruits.Models;
 using CTU_Recruits.Models.ViewModels;
 using CTU_Recruits.Models.ViewModels.JobSeekers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CTU_Recruits.Controllers
 {
+    [Authorize]
     public class JobSeekerController : Controller
     {
         private readonly IRepository _repo;
@@ -23,13 +25,13 @@ namespace CTU_Recruits.Controllers
             this.hostingEnvironment = hostingEnvironment;
         }
 
-        [HttpGet]
+        [HttpGet, AllowAnonymous]
         public IActionResult Index()
         {
             return View(_repo.GetAllJobSeekers());
         }
 
-        [HttpGet]
+        [HttpGet, AllowAnonymous]
         public IActionResult Details(int id)
         {
             return View(_repo.GetJobSeeker(id));

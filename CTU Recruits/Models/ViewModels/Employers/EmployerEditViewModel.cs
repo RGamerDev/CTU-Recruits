@@ -7,5 +7,8 @@ namespace CTU_Recruits.Models.ViewModels.Employers
 {
     public class EmployerEditViewModel : EmployerCreateViewModel
     {
+        public int Id { get; set; }
+
+        public string ExistingPhotoPath { get; set; }
     }
 }

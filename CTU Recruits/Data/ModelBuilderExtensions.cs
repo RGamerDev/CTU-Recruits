@@ -1,10 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CTU_Recruits.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CTU_Recruits.Models
+namespace CTU_Recruits.Data
 {
     public static class ModelBuilderExtensions
     {
@@ -47,9 +48,9 @@ namespace CTU_Recruits.Models
 
             modelBuilder.Entity<Employer>().HasData
                 (
-                    new Employer() { Id = 1, Name = "Mary", CompanyName = "Techer", Description = "jfkdlsahjkdasghsdjka" },
-                    new Employer() { Id = 2, Name = "John", CompanyName = "ITD", Description = "jfkdlsahjkdasghsdjka" },
-                    new Employer() { Id = 3, Name = "Sam", CompanyName = "UMC", Description = "jfkdlsahjkdasghsdjka" }
+                    new Employer() { Id = 1, CompanyName = "Techer", Description = "jfkdlsahjkdasghsdjka", CompanyPhotoPath = "Building1.jpg" },
+                    new Employer() { Id = 2, CompanyName = "ITD", Description = "jfkdlsahjkdasghsdjka", CompanyPhotoPath = "Building2.jpg" },
+                    new Employer() { Id = 3, CompanyName = "UMC", Description = "jfkdlsahjkdasghsdjka", CompanyPhotoPath = "Building3.jpg" }
                 );
         }
     }
