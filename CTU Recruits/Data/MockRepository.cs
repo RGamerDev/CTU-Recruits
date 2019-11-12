@@ -24,13 +24,13 @@ namespace CTU_Recruits.Data
             {
                 new JobSeeker(){ Id = 1, Name = "Mary", Skills = "abc", YearsOfExperience = 1,
                     Description = "jkfld;ajskgl;ag", PhotoPath = @"Mary.jpg",
-                    CVPath = "CV.png", PublicCV = true, dreamJobFound = true},
+                    CVPath = "CV.png", PublicCV = true, dreamJobFound = true, SocialMediaLink = "facebook"},
                 new JobSeeker(){ Id = 2, Name = "John", Skills = "def", YearsOfExperience = 1,
                     Description = "jkfld;ajskgl;ag", PhotoPath = @"John.jpg",
-                    CVPath = "CV.png", PublicCV = true , dreamJobFound = false},
+                    CVPath = "CV.png", PublicCV = true , dreamJobFound = false, SocialMediaLink = "twitter"},
                 new JobSeeker(){ Id = 3, Name = "Sam", Skills = "ghi", YearsOfExperience = 1,
                     Description = "jkfld;ajskgl;ag", PhotoPath = @"Sam.jpg",
-                    CVPath = "CV.png", PublicCV = true , dreamJobFound = false},
+                    CVPath = "CV.png", PublicCV = true , dreamJobFound = false, SocialMediaLink = "instagram"},
             };
         }
 

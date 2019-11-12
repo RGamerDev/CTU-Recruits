@@ -32,5 +32,8 @@ namespace CTU_Recruits.Models
 
         [Display(Name = "Make CV public")]
         public bool PublicCV { get; set; }
+
+        [Display(Name = "Favourite social media")]
+        public string SocialMediaLink { get; set; }
     }
 }

@@ -38,6 +38,15 @@
                     <p>I still need to find my dream job! Would you be able to help?</p>
                 }
 
+                @if (!string.IsNullOrEmpty(Model.SocialMediaLink))
+                {
+                    string link = $"https://www.{Model.SocialMediaLink}.com";
+                    <div>
+                        <h3>My favourite Social media platform:</h3>
+                        <a class="card-link" href="@link">@Model.SocialMediaLink.ToUpper()</a>
+                    </div>
+                }
+
                 <div class="card-footer text-center">
                     <a asp-action="Index" asp-controller="JobSeeker" class="btn btn-primary">Back</a>
 
