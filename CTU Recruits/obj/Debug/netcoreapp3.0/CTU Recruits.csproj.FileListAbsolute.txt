@@ -136,3 +136,11 @@ D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recr
 D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Administrator\CreateRole.cshtml.g.cs
 D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Administrator\ListRoles.cshtml.g.cs
 D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Administrator\EditRole.cshtml.g.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Administrator\EditUsersInRole.cshtml.g.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Account\AccessDenied.cshtml.g.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Administrator\ListUsers.cshtml.g.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Administrator\EditUser.cshtml.g.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Administrator\ManageUserRoles.cshtml.g.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Administrator\ChangePassword.cshtml.g.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Account\LoggedIn.cshtml.g.cs
+D:\OneDrive - CTU Career\Modules\Second Semester\IPG512\SA\CTU_Recruits\CTU Recruits\obj\Debug\netcoreapp3.0\Razor\Views\Success\Index.cshtml.g.cs

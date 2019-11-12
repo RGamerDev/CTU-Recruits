@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CTU_Recruits.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin,Moderator")]
     public class JobSeekerController : Controller
     {
         private readonly IRepository _repo;
@@ -25,13 +25,23 @@ namespace CTU_Recruits.Controllers
             this.hostingEnvironment = hostingEnvironment;
         }
 
-        [HttpGet, AllowAnonymous]
+        [HttpGet]
         public IActionResult Index()
         {
             return View(_repo.GetAllJobSeekers());
         }
 
-        [HttpGet, AllowAnonymous]
+        [HttpPost]
+        public IActionResult Index(string search)
+        {
+
+            var query = from jobseeker in _repo.GetAllJobSeekers()
+                        where (jobseeker.Name.ToLower() == search.ToLower()) || (jobseeker.Skills.ToLower() == search.ToLower()) || (jobseeker.YearsOfExperience.ToString().ToLower() == search.ToLower())
+                        select jobseeker;
+            return View(query);
+        }
+
+        [HttpGet]
         public IActionResult Details(int id)
         {
             return View(_repo.GetJobSeeker(id));
@@ -89,6 +99,7 @@ namespace CTU_Recruits.Controllers
                 YearsOfExperience = jobSeeker.YearsOfExperience,
                 ExistingPhotoPath = jobSeeker.PhotoPath,
                 PublicCV = jobSeeker.PublicCV,
+                dreamJobFound = jobSeeker.dreamJobFound,
                 ExistingCVPath = jobSeeker.CVPath,
             });
         }
@@ -104,6 +115,7 @@ namespace CTU_Recruits.Controllers
                 jobSeekerChanges.Skills = model.Skills;
                 jobSeekerChanges.Description = model.Description;
                 jobSeekerChanges.PublicCV = model.PublicCV;
+                jobSeekerChanges.dreamJobFound = model.dreamJobFound;
 
                 string profilePhotoFileName = "", CVuniqueFileName = "";
                 if (model.Photo != null)

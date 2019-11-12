@@ -29,10 +29,35 @@
                     </figure>
                 }
 
+                @if (Model.dreamJobFound)
+                {
+                    <p>I already found my dream job!</p>
+                }
+                else
+                {
+                    <p>I still need to find my dream job! Would you be able to help?</p>
+                }
+
                 <div class="card-footer text-center">
                     <a asp-action="Index" asp-controller="JobSeeker" class="btn btn-primary">Back</a>
-                    <a asp-action="Edit" asp-controller="JobSeeker" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
-                    <a asp-action="Delete" asp-controller="JobSeeker" asp-route-id="@Model.Id" class="btn btn-danger">Delete</a>
+
+                    @if (User.IsInRole("Admin") || User.IsInRole("Moderator"))
+                    {
+                        <a asp-action="Edit" asp-controller="JobSeeker" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+                        <a asp-action="Delete" asp-controller="JobSeeker" asp-route-id="@Model.Id" class="btn btn-danger">Delete</a>
+                    }
+
+                    @if (!Model.dreamJobFound)
+                    {
+                        <div class="form-group row">
+                            <label class="col-form-label">
+                                Put Your contact information into the box below and press the
+                                "I am interested button" to email them the contact information!"
+                            </label>
+                            <input class="form-control-plaintext" type="text" placeholder="Insert Contact details here..." name="ContactInformation" />
+                        </div>
+                        <button class="btn btn-primary" onclick="alert('Email has been sent to the job seeker!')">I am interested</button>
+                    }
                 </div>
             </div>
         </div>

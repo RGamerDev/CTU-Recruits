@@ -21,7 +21,8 @@ namespace CTU_Recruits.Data
                     Description = "jkfld;ajskgl;ag",
                     PhotoPath = @"~/Images/Mary.jpg",
                     CVPath = "~/Images/CV.png",
-                    PublicCV = true
+                    PublicCV = true,
+                    dreamJobFound = true
                 },
                 new JobSeeker()
                 {
@@ -32,7 +33,8 @@ namespace CTU_Recruits.Data
                     Description = "jkfld;ajskgl;ag",
                     PhotoPath = @"~/Images/John.jpg",
                     CVPath = "~/Images/CV.png",
-                    PublicCV = true
+                    PublicCV = true,
+                    dreamJobFound = false
                 },
                 new JobSeeker()
                 {
@@ -43,7 +45,8 @@ namespace CTU_Recruits.Data
                     Description = "jkfld;ajskgl;ag",
                     PhotoPath = @"~/Images/Sam.jpg",
                     CVPath = "~/Images/CV.png",
-                    PublicCV = true
+                    PublicCV = true,
+                    dreamJobFound = false
                 });
 
             modelBuilder.Entity<Employer>().HasData

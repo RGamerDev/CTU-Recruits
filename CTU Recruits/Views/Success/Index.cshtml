@@ -1,0 +1,29 @@
+﻿@model IEnumerable<JobSeeker>
+@{
+    ViewData["Title"] = "Success tab";
+}
+
+
+@if (Model.Any())
+{
+    <h1>These people are all the people we have helped so far!</h1>
+    <div class="card-deck">
+        @foreach (var seeker in Model)
+        {
+            string photoPath = $"~/Images/JobSeekers/{seeker.PhotoPath ?? "NoImage.jpg"}";
+            <div class="card m-3 index-img">
+                <div class="card-header">
+                    <h3>@seeker.Name</h3>
+                </div>
+                <img class="card-img-top" src="@photoPath" asp-append-version="true" />
+                <div class="card-footer text-center">
+                    <a asp-action="Details" asp-controller="JobSeeker" asp-route-id="@seeker.Id" class="btn btn-primary">View</a>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <h1>No one has found their dream job yet!</h1>
+}

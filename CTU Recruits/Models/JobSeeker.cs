@@ -27,7 +27,8 @@ namespace CTU_Recruits.Models
 
         public string PhotoPath { get; set; }
 
-        
+        [Display(Name = "Dream job found!")]
+        public bool dreamJobFound { get; set; }
 
         [Display(Name = "Make CV public")]
         public bool PublicCV { get; set; }

@@ -3,7 +3,8 @@
 @{
     ViewData["Title"] = "Job Seekers List";
 }
-
+@if (Model.Any())
+{
     <div class="card-deck">
         @foreach (var seeker in Model)
         {
@@ -12,12 +13,20 @@
                 <div class="card-header">
                     <h3>@seeker.Name</h3>
                 </div>
-                <img class="card-img-top" src="@photoPath" asp-append-version="true"/>
+                <img class="card-img-top" src="@photoPath" asp-append-version="true" />
                 <div class="card-footer text-center">
                     <a asp-action="Details" asp-controller="JobSeeker" asp-route-id="@seeker.Id" class="btn btn-primary">View</a>
-                    <a asp-action="Edit" asp-controller="JobSeeker" asp-route-id="@seeker.Id" class="btn btn-primary">Edit</a>
-                    <a asp-action="Delete" asp-controller="JobSeeker" asp-route-id="@seeker.Id" class="btn btn-danger">Delete</a>
+                    @if (User.IsInRole("Admin") || User.IsInRole("Moderator"))
+                    {
+                        <a asp-action="Edit" asp-controller="JobSeeker" asp-route-id="@seeker.Id" class="btn btn-primary">Edit</a>
+                        <a asp-action="Delete" asp-controller="JobSeeker" asp-route-id="@seeker.Id" class="btn btn-danger">Delete</a>
+                    }
                 </div>
             </div>
         }
     </div>
+}
+else
+{
+    <h1 class="text-center">There are no results</h1>
+}

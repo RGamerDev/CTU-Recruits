@@ -21,8 +21,10 @@
                 <h5 class="card-title">@role.Name</h5>
             </div>
             <div class="card-footer">
-                <a asp-action="EditRole" asp-controller="Administrator" asp-route-id="@role.Id" class="btn btn-primary">Edit</a>
-                <a asp-action="Delete" asp-controller="Administrator" class="btn btn-danger">Delete</a>
+                <form asp-action="DeleteRole" asp-route-id="@role.Id" method="post">
+                    <a asp-action="EditRole" asp-controller="Administrator" asp-route-id="@role.Id" class="btn btn-danger">Edit</a>
+                    <button type="submit" onclick="return confirm('Are you sure you want to delete role: @role.Name?')" class="btn btn-danger">Delete</button>
+                </form>
             </div>
         </div>
     }
@@ -38,7 +40,7 @@ else
                 Use the button below to create a role
             </h5>
             <a class="btn btn-primary" style="width:auto"
-               asp-controller="administration" asp-action="CreateRole">
+               asp-controller="administrator" asp-action="CreateRole">
                 Create Role
             </a>
         </div>

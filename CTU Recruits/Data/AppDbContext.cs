@@ -21,6 +21,11 @@ namespace CTU_Recruits.Data
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Seed();
+
+            foreach (var foreignkey in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
+            {
+                foreignkey.DeleteBehavior = DeleteBehavior.Restrict;
+            }
         }
     }
 }

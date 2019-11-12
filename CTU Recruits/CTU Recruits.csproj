@@ -6,12 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\20191108204609_SeedJobSeekers.cs" />
-    <Compile Remove="Migrations\20191108204609_SeedJobSeekers.Designer.cs" />
-    <Compile Remove="Migrations\20191108210729_AddAndSeedUsers.cs" />
-    <Compile Remove="Migrations\20191108210729_AddAndSeedUsers.Designer.cs" />
-    <Compile Remove="Migrations\20191108224201_AddAndSeedUsers.cs" />
-    <Compile Remove="Migrations\20191108224201_AddAndSeedUsers.Designer.cs" />
+    <Compile Remove="Migrations\20191111154059_InitialMigration.cs" />
+    <Compile Remove="Migrations\20191111154059_InitialMigration.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

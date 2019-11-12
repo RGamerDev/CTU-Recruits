@@ -14,7 +14,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace CTU_Recruits.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin,Moderator")]
     public class EmployerController : Controller
     {
         private IRepository _repo;
@@ -26,13 +26,23 @@ namespace CTU_Recruits.Controllers
             this.hostingEnvironment = hostingEnvironment;
         }
 
-        [HttpGet, AllowAnonymous]
+        [HttpGet]
         public IActionResult Index()
         {
             return View(_repo.GetAllEmployers());
         }
 
-        [HttpGet, AllowAnonymous]
+        [HttpPost]
+        public IActionResult Index(string search)
+        {
+
+            var query = from employer in _repo.GetAllEmployers()
+                        where (employer.CompanyName.ToLower() == search.ToLower()) || (employer.Description.ToLower() == search.ToLower())
+                        select employer;
+            return View(query);
+        }
+
+        [HttpGet]
         public IActionResult Details(int id)
         {
             return View(_repo.GetEmployer(id));

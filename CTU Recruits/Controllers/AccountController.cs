@@ -44,14 +44,18 @@ namespace CTU_Recruits.Controllers
             if (ModelState.IsValid)
             {
                 var result = await signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
-
                 if (result.Succeeded)
                 {
+                    var user = await userManager.FindByEmailAsync(model.Email);
+
                     if (!string.IsNullOrEmpty(returnUrl))
                     {
                         return LocalRedirect(returnUrl);
                     }
-                    return RedirectToAction("Index", "JobSeeker");
+                    else
+                    {
+                        return View("LoggedIn");
+                    }
                 }
 
                 ModelState.AddModelError(string.Empty, "Invalid login attempt");
@@ -80,8 +84,12 @@ namespace CTU_Recruits.Controllers
 
                 if (result.Succeeded)
                 {
+                    if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                    {
+                        return RedirectToAction("ListUsers", "Administrator");
+                    }
                     await signInManager.SignInAsync(user, false);
-                    return RedirectToAction("Index", "JobSeeker");
+                    return View("Registered");
                 }
 
                 foreach (var error in result.Errors)
@@ -91,6 +99,12 @@ namespace CTU_Recruits.Controllers
 
             }
             return View(model);
+        }
+
+        [HttpGet, AllowAnonymous]
+        public IActionResult AccessDenied()
+        {
+            return View();
         }
     }
 }
