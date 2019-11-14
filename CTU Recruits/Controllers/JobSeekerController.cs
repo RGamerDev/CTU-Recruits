@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Threading.Tasks;
 using CTU_Recruits.Data;
 using CTU_Recruits.Models;
-using CTU_Recruits.Models.ViewModels;
 using CTU_Recruits.Models.ViewModels.JobSeekers;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
@@ -13,7 +10,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CTU_Recruits.Controllers
 {
-    [Authorize(Roles = "Admin,Moderator")]
     public class JobSeekerController : Controller
     {
         private readonly IRepository _repo;
@@ -36,7 +32,9 @@ namespace CTU_Recruits.Controllers
         {
 
             var query = from jobseeker in _repo.GetAllJobSeekers()
-                        where (jobseeker.Name.ToLower() == search.ToLower()) || (jobseeker.Skills.ToLower() == search.ToLower()) || (jobseeker.YearsOfExperience.ToString().ToLower() == search.ToLower())
+                        where (jobseeker.Name.ToLower() == search.ToLower()) 
+                        || (jobseeker.Skills.ToLower() == search.ToLower()) 
+                        || (jobseeker.YearsOfExperience.ToString().ToLower() == search.ToLower())
                         select jobseeker;
             return View(query);
         }

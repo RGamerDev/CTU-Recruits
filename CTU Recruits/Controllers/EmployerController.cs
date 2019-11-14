@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using CTU_Recruits.Models;
 using CTU_Recruits.Data;
 using CTU_Recruits.Models.ViewModels.Employers;
@@ -14,7 +11,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace CTU_Recruits.Controllers
 {
-    [Authorize(Roles = "Admin,Moderator")]
     public class EmployerController : Controller
     {
         private IRepository _repo;

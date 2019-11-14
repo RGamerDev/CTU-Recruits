@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace CTU_Recruits.Models.ViewModels.Administrator
 {
@@ -16,7 +12,8 @@ namespace CTU_Recruits.Models.ViewModels.Administrator
         [Required, DataType(DataType.Password), Display(Name = "New Password")]
         public string NewPassword { get; set; }
 
-        [Compare("NewPassword", ErrorMessage = "The new password and confirmation password does not match"), DataType(DataType.Password), Display(Name = "Confirm new Password")]
+        [Compare("NewPassword", ErrorMessage = "The new password and confirmation password does not match"),
+            DataType(DataType.Password), Display(Name = "Confirm new Password")]
         public string ConfirmPassword { get; set; }
     }
 }

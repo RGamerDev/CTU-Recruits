@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CTU_Recruits.Models.ViewModels;
@@ -429,10 +428,7 @@ namespace CTU_Recruits.Controllers
                     }
                 }
             }
-
             return RedirectToAction("EditRole", new { Id = roleId });
         }
-
-
     }
 }
